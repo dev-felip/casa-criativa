@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideas - Casa Criativa</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body id="page-ideas">
+   <div id="container">
+        <header>
+            <a href="index.html">
+                <img src="img/Logo.png" alt="Logo Casa Criativa">
+            </a>
+                <nav>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a class="button" href="#" onClick="onOff()">Nova Ideia</a></li>
+                </nav>
+        </header>
+
+        <section id="title">
+            <p>Em Exibição</p>
+            <h1>Ideias</h1>
+        </section>
+
+        <main>
+            <section id="ideas">
+                <div class="idea">
+                    <img src="img/programmer.png" alt="Imagem de Curso de Programação">
+                        <div class="content">
+                            <h3>Cursos de Programação</h3>
+                            <p>Estudo</p>
+                            <div class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perspiciatis ex voluptas, voluptatibus culpa repellendus harum corporis est maiores sequi quo, deleniti hic natus accusantium, at voluptatum beatae deserunt minima.
+                            </div>
+                            <a href="#">Ir para a Idea</a>
+                        </div>
+                </div>
+
+                <div class="idea">
+                    <img src="img/sport.png" alt="Imagem de Exercício">
+                    <div class="content">
+                        <h3>Exercícios</h3>
+                        <p>Saúde</p>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perspiciatis ex voluptas, voluptatibus culpa repellendus harum corporis est maiores sequi quo, deleniti hic natus accusantium, at voluptatum beatae deserunt minima.
+                        </div>
+                        <a href="#">Ir para a Idea</a>
+                    </div>
+                </div>
+
+                <div class="idea">
+                    <img src="img/meditation.png" alt="Imagem de Meditação">
+                    <div class="content">
+                        <h3>Meditação</h3>
+                        <p>Mentalidade</p>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perspiciatis ex voluptas, voluptatibus culpa repellendus harum corporis est maiores sequi quo, deleniti hic natus accusantium, at voluptatum beatae deserunt minima.
+                        </div>
+                        <a href="#">Ir para a Idea</a>
+                    </div>
+                </div>
+
+                <div class="idea">
+                    <img src="img/karaoke.png" alt="Imagem de Karaokê">
+                    <div class="content">
+                        <h3>Karaokê</h3>
+                        <p>Diversão em Família</p>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perspiciatis ex voluptas, voluptatibus culpa repellendus harum corporis est maiores sequi quo, deleniti hic natus accusantium, at voluptatum beatae deserunt minima.
+                        </div>
+                        <a href="#">Ir para a Idea</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            com 💜  <a href="http://rocketseat.com.br" target="_blank">Felipe Barbosa</a>
+        </footer>
+   </div>
+
+
+    <!-- MODAL -->
+<div id="modal" class="hide">
+    <div class="content">
+        <h1>Nova Ideia</h1>
+
+        <form action="">
+
+            <div class="input-wrapper">
+                <label for="title">Título da Ideia</label>
+                <input type="text" name="title">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="category">Categoria</label>
+                <input type="text" name="category">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="image">Link da Imagem</label>
+                <input type="url" name="image">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="description">Descrição da Ideia </label>
+                <textarea name="description" cols="30" rows="3"></textarea>
+            </div>
+            
+            <div class="input-wrapper">
+                <label for="link">Link da Ideia</label>
+                <input type="url" name="link">
+            </div>
+
+            <a href="#" onClick="onOff()">Voltar</a>
+            <button>Salvar</button>
+            
+        </form>
+    </div>
+</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
